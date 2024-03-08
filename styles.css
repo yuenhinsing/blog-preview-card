@@ -1,0 +1,50 @@
+:root {
+    --prim: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 7%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--prim);
+}
+
+.main-content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: var(--white);
+    padding: 2rem;
+    box-shadow: 5px 5px 0 var(--black);
+    width: 30rem;
+    border-radius: 1.5rem;
+}
+
+.tag {
+    background-color: var(--prim);
+    padding: 10px;
+    font-weight: 700;
+}
+
+h1 {color: var(--black)}
+p {color: var(--gray)}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.author-name {
+    margin: 20px;
+}
