@@ -55,6 +55,7 @@ p {color: var(--gray); margin-bottom: 10px;}
 }
 
 .author-name {
+    font-size: 16px;
     font-weight: 1000;
     margin: 20px;
 }
