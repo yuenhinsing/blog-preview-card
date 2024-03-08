@@ -1,7 +1,7 @@
 :root {
     --prim: hsl(47, 88%, 63%);
     --white: hsl(0, 0%, 100%);
-    --grey: hsl(0, 0%, 50%);
+    --gray: hsl(0, 0%, 50%);
     --black: hsl(0, 0%, 7%);
 }
 
@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Figtree", 'Courier New', Courier, monospace;
     background-color: var(--prim);
 }
 
@@ -37,9 +37,10 @@ img {
 
 .tag {
     background-color: var(--prim);
-    padding: 10px;
+    padding: 5px 10px 5px 10px;
     font-weight: 700;
-    border-radius: 10px;
+    border-radius: 5x;
+    border: none;
     margin-top: 10px;
     margin-bottom: 10px;
 }
